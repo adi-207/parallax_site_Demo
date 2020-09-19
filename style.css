@@ -9,6 +9,7 @@
     background-attachment: fixed;
     background-size: cover;
     position: relative;
+    overflow: hidden;
 }
 
 .img1 {
