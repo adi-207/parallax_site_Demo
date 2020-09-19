@@ -1,0 +1,84 @@
+  html , body {
+     height: 100%;
+     margin: 0;
+ }
+
+
+.img1 , .img2 , .img3 , .img4 {
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    position: relative;
+}
+
+.img1 {
+    background-image: url("../images/google1.jpg");
+    
+    
+    min-height: 100%;
+    
+    
+}
+
+.img2 {
+    background-image: url("../images/freinds1.webp");
+    
+    min-height: 400px;
+}
+
+.img3 {
+    background-image: url("../images/cofee_1.jpg") ;
+    
+    min-height: 400px;
+
+}
+
+.img4 {
+    background-image: url("../images/amazon_1.jpg") ;
+    
+    min-height: 400px;
+
+}
+
+.box  {
+    position: absolute;
+    top: 50%;
+    background-color: black;
+    color: white;
+    opacity: 0.7;
+    padding: 20px;
+    width: 100%;
+    
+    text-align: center;
+}
+
+.mtext {
+    position: absolute;
+    top: 50%;
+    color: red;
+    font-size: 1.5em;
+    font-weight: bold;
+    opacity: 0.7;
+    padding: 20px;
+    width: 100%;
+    
+    text-align: center;
+}
+
+.Section1 , .Section2 , .Section3 {
+    padding: 20px 80px;   
+}
+
+.Section1 {
+    background-color: #f4f4f4;
+    color: #666;
+}
+
+.Section2 , .Section3{
+    background-color: #282e34;
+    color: #ddd;
+}
+
+.content {
+    text-align: center;
+}
